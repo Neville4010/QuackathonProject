@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bd7ku1ps0bwc8"
+
+[deps]
+
+files=["res://assets/players/skybluegirlsprite/credits/credits.notes.translation", "res://assets/players/skybluegirlsprite/credits/credits.authors.translation", "res://assets/players/skybluegirlsprite/credits/credits.licenses.translation", "res://assets/players/skybluegirlsprite/credits/credits.urls.translation"]
+
+source_file="res://assets/players/skybluegirlsprite/credits/credits.csv"
+dest_files=["res://assets/players/skybluegirlsprite/credits/credits.notes.translation", "res://assets/players/skybluegirlsprite/credits/credits.authors.translation", "res://assets/players/skybluegirlsprite/credits/credits.licenses.translation", "res://assets/players/skybluegirlsprite/credits/credits.urls.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

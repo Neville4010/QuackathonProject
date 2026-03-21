@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bhtvjpgq6k2aj"]
+
+[ext_resource type="Texture2D" uid="uid://diiw2qyqf0lqc" path="res://assets/players/skybluegirlsprite/standard/walk.png" id="1_1hmtu"]
+[ext_resource type="Script" uid="uid://dfn75na55nn5x" path="res://scenes/entities/player/player.gd" id="1_635qg"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_635qg"]
+radius = 16.0
+
+[node name="Player" type="CharacterBody2D" unique_id=351402628]
+script = ExtResource("1_635qg")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=406356375]
+position = Vector2(0, -29.1)
+texture = ExtResource("1_1hmtu")
+hframes = 13
+vframes = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1520200114]
+shape = SubResource("CircleShape2D_635qg")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1510274956]
