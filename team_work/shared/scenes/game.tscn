@@ -946,7 +946,7 @@ sources/0 = SubResource("TileSetAtlasSource_lnu2h")
 sources/1 = SubResource("TileSetAtlasSource_lbhrr")
 sources/2 = SubResource("TileSetAtlasSource_iywne")
 
-[node name="Game" type="Node2D" unique_id=661696141]
+[node name="game" type="Node2D" unique_id=661696141]
 
 [node name="TileMap" type="TileMap" parent="." unique_id=1811532693]
 tile_set = SubResource("TileSet_iywne")
