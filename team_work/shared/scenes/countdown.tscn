@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://b2squb42v7eom"]
+
+[sub_resource type="GDScript" id="GDScript_h2jvy"]
+script/source = "extends Node
+
+@onready var label = $Label
+@onready var timer = $Timer
+
+func _ready():
+	timer.start()
+	
+func time_left_to_live():
+	var time_left = timer.time_left
+	var minute = float(time_left / 12)
+	var second = int(time_left) % 12
+	return [minute, second]
+	
+func _process(delta):
+	label.text = \"%02d:%02d\" % time_left_to_live()
+"
+
+[sub_resource type="FontFile" id="FontFile_c8cft"]
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/50/0/ascent = 0.0
+cache/0/50/0/descent = 0.0
+cache/0/50/0/underline_position = 0.0
+cache/0/50/0/underline_thickness = 0.0
+cache/0/50/0/scale = 1.0
+
+[node name="countdown" type="Node" unique_id=1117512382 groups=["countdown"]]
+script = SubResource("GDScript_h2jvy")
+
+[node name="Label" type="Label" parent="." unique_id=784458225]
+offset_left = 524.0
+offset_top = 180.0
+offset_right = 588.0
+offset_bottom = 229.0
+theme_override_fonts/font = SubResource("FontFile_c8cft")
+theme_override_font_sizes/font_size = 50
+text = "00:00
+"
+
+[node name="Timer" type="Timer" parent="." unique_id=1713052243]
+wait_time = 360.0
+one_shot = true
