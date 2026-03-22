@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://b8ah0i82xcgux"]
+
+[ext_resource type="Texture2D" uid="uid://dxjk1h3sydjwo" path="res://scenes/menuBackground.png" id="1_l6cm7"]
+[ext_resource type="FontFile" uid="uid://fwpiaemwd674" path="res://scenes/GrapeSoda.ttf" id="2_ekxnf"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ekxnf"]
+texture = ExtResource("1_l6cm7")
+modulate_color = Color(0.30839977, 0.30839995, 0.3083999, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vue75"]
+bg_color = Color(0.48961812, 0.6285227, 0.6587842, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0, 0, 0, 0.20392157)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.41)
+
+[node name="MainMenu" type="Control" unique_id=1082786502]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=1562100497]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_ekxnf")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1277377904]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.3203125
+anchor_top = 0.45061728
+anchor_right = 0.67664933
+anchor_bottom = 0.8128858
+offset_bottom = -3.0517578e-05
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="VBoxContainer" unique_id=64445838]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0.8779732, 0.8722485, 0.8807685, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_vue75")
+text = "Start Game"
+
+[node name="Button2" type="Button" parent="VBoxContainer" unique_id=915757039]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0.8779732, 0.8722485, 0.8807685, 1)
+theme_override_constants/h_separation = 0
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_vue75")
+text = "Exit Game"
+
+[node name="Label" type="Label" parent="." unique_id=289047862]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -192.0
+offset_top = 81.0
+offset_right = 202.0
+offset_bottom = 232.0
+grow_horizontal = 2
+theme_override_colors/font_shadow_color = Color(0.3793922, 0.35587478, 0.7665871, 0.35686275)
+theme_override_constants/shadow_offset_y = 10
+theme_override_fonts/font = ExtResource("2_ekxnf")
+theme_override_font_sizes/font_size = 150
+text = "ALOGO"
