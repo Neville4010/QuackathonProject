@@ -4274,7 +4274,7 @@ zoom = Vector2(5, 5)
 limit_left = -100
 limit_top = 0
 limit_right = 300
-limit_bottom = 100
+limit_bottom = 0
 position_smoothing_enabled = true
 editor_draw_limits = true
 
@@ -4296,6 +4296,43 @@ shape = SubResource("RectangleShape2D_uk881")
 position = Vector2(44.5, 376)
 shape = SubResource("RectangleShape2D_r0gsk")
 
+<<<<<<< HEAD
+[node name="home" type="Button" parent="." unique_id=713489495]
+offset_left = -308.0
+offset_top = -250.0
+offset_right = -248.0
+offset_bottom = -229.0
+
+[node name="cafe" type="Button" parent="." unique_id=1462582162]
+offset_left = -30.0
+offset_top = 57.0
+offset_right = 25.0
+offset_bottom = 80.0
+
+[node name="shop" type="Button" parent="." unique_id=1467892880]
+offset_left = -552.0
+offset_top = 337.0
+offset_right = -477.0
+offset_bottom = 364.0
+
+[node name="casino" type="Button" parent="." unique_id=847812215]
+offset_left = 29.0
+offset_top = 292.0
+offset_right = 93.0
+offset_bottom = 314.0
+
+[node name="bank" type="Button" parent="." unique_id=1108130450]
+offset_left = 499.0
+offset_top = 242.0
+offset_right = 554.0
+offset_bottom = 264.0
+
+[node name="job" type="Button" parent="." unique_id=145656456]
+offset_left = 494.0
+offset_top = -232.0
+offset_right = 563.0
+offset_bottom = -208.0
+=======
 [node name="countdown" parent="." unique_id=1117512382 instance=ExtResource("9_cx7qy")]
 
 [node name="Label" parent="countdown" index="0" unique_id=784458225]
@@ -4305,3 +4342,4 @@ offset_right = -394.0
 offset_bottom = -171.0
 
 [editable path="countdown"]
+>>>>>>> 206b658afec409acdfc72a105688b39c4dc08a91
