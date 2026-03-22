@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://xaiddy2lwf6n"
-path="res://.godot/imported/emote.png-d99f1548a8530251a71868ec08487f34.ctex"
+uid="uid://bf52w7gpywfjp"
+path="res://.godot/imported/introduction_horse-removebg-preview.png-88ebc2db65c09f8bf9fd8618b83be99a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/players/recruitment_manager/standard/emote.png"
-dest_files=["res://.godot/imported/emote.png-d99f1548a8530251a71868ec08487f34.ctex"]
+source_file="res://assets/horse/introduction_horse-removebg-preview.png"
+dest_files=["res://.godot/imported/introduction_horse-removebg-preview.png-88ebc2db65c09f8bf9fd8618b83be99a.ctex"]
 
 [params]
 

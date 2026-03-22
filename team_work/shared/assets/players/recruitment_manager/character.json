@@ -33,7 +33,7 @@
       "name": "Straight skirt (leather)"
     }
   },
-  "selectedAnimation": "idle",
+  "selectedAnimation": "walk",
   "showTransparencyGrid": true,
   "applyTransparencyMask": false,
   "matchBodyColorEnabled": true,
@@ -240,7 +240,7 @@
   ],
   "credits": [
     {
-      "fileName": "head/heads/human/male/idle/light.png",
+      "fileName": "head/heads/human/male/walk/light.png",
       "file": "head/heads/human/male",
       "notes": "original head by Redshrike, tweaks by BenCreating, modular version by bluecarrot16",
       "authors": [
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "fileName": "head/faces/male/neutral/idle/light.png",
+      "fileName": "head/faces/male/neutral/walk/light.png",
       "file": "head/faces",
       "notes": "Original by Redshrike, Expressions by ElizaWy, mapped to all frames by JaidynReiman",
       "authors": [
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "fileName": "hair/shoulderl/adult/fg/idle/chestnut.png",
+      "fileName": "hair/shoulderl/adult/fg/walk/chestnut.png",
       "file": "hair/shoulderl",
       "notes": "",
       "authors": [
@@ -296,7 +296,7 @@
       ]
     },
     {
-      "fileName": "feet/sandals/thin/idle/tan.png",
+      "fileName": "feet/sandals/thin/walk/tan.png",
       "file": "feet/sandals",
       "notes": "edited for v3 bases by bluecarrot16, Jump/Sit/Emote/Run/Revised Combat by JaidynReiman",
       "authors": [
@@ -318,7 +318,7 @@
       ]
     },
     {
-      "fileName": "torso/clothes/shortsleeve/tshirt_buttoned/female/idle/white.png",
+      "fileName": "torso/clothes/shortsleeve/tshirt_buttoned/female/walk/white.png",
       "file": "torso/clothes/shortsleeve/tshirt_buttoned",
       "notes": "original by ElizaWy; spellcast/thrust/shoot/hurt/male adapted from original by JaidynReiman",
       "authors": [
@@ -338,7 +338,7 @@
       ]
     },
     {
-      "fileName": "legs/skirts/straight/female/idle/leather.png",
+      "fileName": "legs/skirts/straight/female/walk/leather.png",
       "file": "legs/skirts/straight",
       "notes": "original skirt by ElizaWy, extended to all animation frames and edited for v3 bases by bluecarrot16",
       "authors": [
