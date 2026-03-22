@@ -1,0 +1,140 @@
+[gd_scene format=3 uid="uid://uohwedd3uw0d"]
+
+[ext_resource type="Script" uid="uid://cuso7knuc5ja" path="res://scenes/entities/player/job_scene.gd" id="1_ivr4v"]
+
+[node name="job_scene" type="Node2D" unique_id=1333880439]
+script = ExtResource("1_ivr4v")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1028620429]
+
+[node name="job_scene_background" type="ColorRect" parent="CanvasLayer" unique_id=988860492]
+offset_top = 2.0
+offset_right = 1152.0
+offset_bottom = 650.0
+color = Color(0.5882353, 0.29411766, 0, 1)
+
+[node name="dialogue_panel" type="Panel" parent="CanvasLayer" unique_id=1050738673]
+offset_left = 176.0
+offset_top = 430.0
+offset_right = 976.0
+offset_bottom = 610.0
+
+[node name="dialogue_label" type="Label" parent="CanvasLayer/dialogue_panel" unique_id=218283601]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 790.0
+offset_bottom = 110.0
+theme_override_font_sizes/font_size = 18
+
+[node name="Button" type="Button" parent="CanvasLayer/dialogue_panel" unique_id=1307542843]
+layout_mode = 0
+offset_left = 650.0
+offset_top = 130.0
+offset_right = 780.0
+offset_bottom = 170.0
+text = "Continue"
+
+[node name="swipe_panel" type="Panel" parent="CanvasLayer" unique_id=1814800073]
+offset_left = 326.0
+offset_top = 150.0
+offset_right = 826.0
+offset_bottom = 500.0
+
+[node name="jobtitle" type="Label" parent="CanvasLayer/swipe_panel" unique_id=1570440151]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 20.0
+offset_right = 350.0
+offset_bottom = 60.0
+theme_override_font_sizes/font_size = 22
+
+[node name="jobdescription" type="Label" parent="CanvasLayer/swipe_panel" unique_id=578904506]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 80.0
+offset_right = 480.0
+offset_bottom = 140.0
+
+[node name="salarylabel" type="Label" parent="CanvasLayer/swipe_panel" unique_id=1802022109]
+layout_mode = 0
+offset_left = 180.0
+offset_top = 160.0
+offset_right = 320.0
+offset_bottom = 200.0
+theme_override_font_sizes/font_size = 18
+
+[node name="swipehint" type="Label" parent="CanvasLayer/swipe_panel" unique_id=1563191030]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 290.0
+offset_right = 420.0
+offset_bottom = 330.0
+text = "← Reject  |  Accept →"
+
+[node name="jobselection_panel" type="Panel" parent="CanvasLayer" unique_id=2066731944]
+offset_left = 326.0
+offset_top = 250.0
+offset_right = 826.0
+offset_bottom = 400.0
+
+[node name="parttime_button" type="Button" parent="CanvasLayer/jobselection_panel" unique_id=464256843]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 50.0
+offset_right = 230.0
+offset_bottom = 100.0
+text = "Part Time (4hrs)"
+
+[node name="fulltime_button" type="Button" parent="CanvasLayer/jobselection_panel" unique_id=2013156587]
+layout_mode = 0
+offset_left = 270.0
+offset_top = 50.0
+offset_right = 470.0
+offset_bottom = 100.0
+text = "Full Time (8hrs)"
+
+[node name="TaskPanel" type="Panel" parent="CanvasLayer" unique_id=194764981]
+offset_left = 326.0
+offset_top = 150.0
+offset_right = 826.0
+offset_bottom = 500.0
+
+[node name="tasktitle" type="Label" parent="CanvasLayer/TaskPanel" unique_id=248253994]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 20.0
+offset_right = 350.0
+offset_bottom = 60.0
+theme_override_font_sizes/font_size = 22
+
+[node name="task1" type="Label" parent="CanvasLayer/TaskPanel" unique_id=2091839282]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 80.0
+offset_right = 480.0
+offset_bottom = 115.0
+
+[node name="task2" type="Label" parent="CanvasLayer/TaskPanel" unique_id=150728213]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 130.0
+offset_right = 480.0
+offset_bottom = 165.0
+
+[node name="task3" type="Label" parent="CanvasLayer/TaskPanel" unique_id=1941723835]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 180.0
+offset_right = 480.0
+offset_bottom = 215.0
+
+[node name="closehint" type="Label" parent="CanvasLayer/TaskPanel" unique_id=1337358401]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 290.0
+offset_right = 400.0
+offset_bottom = 325.0
+theme_override_font_sizes/font_size = 14
+text = "Press T to close										
+Press T again to close "

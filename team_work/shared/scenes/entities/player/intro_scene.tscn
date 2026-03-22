@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://dejwrds0irpel"]
+
+[ext_resource type="Script" uid="uid://cogeqnmxyvr7x" path="res://scenes/entities/player/intro_scene.gd" id="1_8eh7t"]
+[ext_resource type="Texture2D" uid="uid://b6o6cocn8qum7" path="res://assets/backgrounds/background-scene.png" id="1_bkavy"]
+[ext_resource type="Texture2D" uid="uid://bf52w7gpywfjp" path="res://assets/horse/introduction_horse-removebg-preview.png" id="2_n48m0"]
+
+[node name="intro_scene" type="Control" unique_id=91953311]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_8eh7t")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1500645536]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_bkavy")
+expand_mode = 1
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=555874417]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0, 0, 0, 0.5882353)
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=1307552610]
+layout_mode = 0
+offset_left = -50.0
+offset_top = 150.0
+offset_right = 450.0
+offset_bottom = 650.0
+texture = ExtResource("2_n48m0")
+
+[node name="Panel" type="Panel" parent="." unique_id=302325826]
+layout_mode = 0
+offset_left = 375.0
+offset_top = 460.0
+offset_right = 1125.0
+offset_bottom = 610.0
+
+[node name="Label" type="Label" parent="Panel" unique_id=1882722180]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 740.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 24
+text = "Welcome to Alogo city!"
+
+[node name="Button" type="Button" parent="Panel" unique_id=683967677]
+layout_mode = 0
+offset_left = 620.0
+offset_top = 100.0
+offset_right = 740.0
+offset_bottom = 140.0
+button_mask = 7
+text = "continue"

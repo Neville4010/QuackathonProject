@@ -1,0 +1,14 @@
+{
+  "exportTimestamp": "2026-03-21T23-42-04",
+  "bodyType": "pregnant",
+  "standardAnimations": {
+    "exported": [],
+    "failed": []
+  },
+  "customAnimations": {
+    "exported": [],
+    "failed": []
+  },
+  "frameSize": 64,
+  "frameCounts": {}
+}
