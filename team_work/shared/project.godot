@@ -19,6 +19,13 @@ config/icon="res://icon.svg"
 
 TaskStorage="*uid://1qybvsuc7kfo"
 
+[display]
+
+window/size/viewport_width=1200
+window/size/viewport_height=675
+window/size/mode=1
+window/size/initial_position_type=3
+
 [input]
 
 left={
