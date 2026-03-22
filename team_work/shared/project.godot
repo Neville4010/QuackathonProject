@@ -11,24 +11,14 @@ config_version=5
 [application]
 
 config/name="shared"
-<<<<<<< HEAD
-run/main_scene="uid://vplask1fc8no"
-=======
 run/main_scene="uid://ciewraa7drelp"
->>>>>>> 29a49ec58fe2ff56cb9e0e8aaf55878bea7220dd
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+<<<<<<<HEADrun/main_scene="uid://vplask1fc8no"
 
 [autoload]
 
 TaskStorage="*uid://1qybvsuc7kfo"
-
-[display]
-
-window/size/viewport_width=1200
-window/size/viewport_height=675
-window/size/mode=1
-window/size/initial_position_type=3
 
 [input]
 
