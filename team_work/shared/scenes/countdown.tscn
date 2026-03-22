@@ -11,8 +11,8 @@ func _ready():
 	
 func time_left_to_live():
 	var time_left = timer.time_left
-	var minute = float(time_left / 12)
-	var second = int(time_left) % 12
+	var minute = float(time_left / 60)
+	var second = int(time_left) % 60
 	return [minute, second]
 	
 func _process(delta):
@@ -20,6 +20,9 @@ func _process(delta):
 "
 
 [sub_resource type="FontFile" id="FontFile_c8cft"]
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
 cache/0/variation_coordinates = {}
 cache/0/face_index = 0
 cache/0/embolden = 0.0
@@ -54,5 +57,5 @@ text = "00:00
 "
 
 [node name="Timer" type="Timer" parent="." unique_id=1713052243]
-wait_time = 360.0
+wait_time = 720.0
 one_shot = true

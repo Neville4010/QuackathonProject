@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="shared"
-run/main_scene="uid://uohwedd3uw0d"
+run/main_scene="uid://ciewraa7drelp"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 

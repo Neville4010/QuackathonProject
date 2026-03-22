@@ -2,61 +2,61 @@
   "version": 2,
   "bodyType": "muscular",
   "selections": {
-    "body": {
-      "itemId": "body",
-      "variant": "light",
-      "name": "Body Color (light)"
-    },
-    "head": {
-      "itemId": "heads_human_male",
-      "variant": "light",
-      "name": "Human Male (light)"
-    },
-    "expression": {
-      "itemId": "face_neutral",
-      "variant": "light",
-      "name": "Neutral (light)"
-    },
-    "neck": {
-      "itemId": "neck_bowtie",
-      "variant": "red",
-      "name": "Bowtie (red)"
-    },
-    "beard": {
-      "itemId": "beards_5oclock_shadow",
-      "variant": "ginger",
-      "name": "5 O'clock Shadow (ginger)"
-    },
-    "hair": {
-      "itemId": "hair_buzzcut",
-      "variant": "ginger",
-      "name": "Buzzcut (ginger)"
-    },
-    "sash": {
-      "itemId": "belt_obi",
-      "variant": "leather",
-      "name": "Obi (leather)"
-    },
-    "sash_tie": {
-      "itemId": "belt_obi_knot_left",
-      "variant": "charcoal",
-      "name": "Obi Knot Left (charcoal)"
-    },
-    "legs": {
-      "itemId": "legs_formal",
-      "variant": "black",
-      "name": "Formal Pants (black)"
-    },
-    "shoes_toe": {
-      "itemId": "feet_plate_toe_thick",
-      "variant": "iron",
-      "name": "Thick Plated Toe (iron)"
-    },
-    "shoes": {
-      "itemId": "feet_shoes_revised",
-      "variant": "red",
-      "name": "Revised Shoes (red)"
-    }
+	"body": {
+	  "itemId": "body",
+	  "variant": "light",
+	  "name": "Body Color (light)"
+	},
+	"head": {
+	  "itemId": "heads_human_male",
+	  "variant": "light",
+	  "name": "Human Male (light)"
+	},
+	"expression": {
+	  "itemId": "face_neutral",
+	  "variant": "light",
+	  "name": "Neutral (light)"
+	},
+	"neck": {
+	  "itemId": "neck_bowtie",
+	  "variant": "red",
+	  "name": "Bowtie (red)"
+	},
+	"beard": {
+	  "itemId": "beards_5oclock_shadow",
+	  "variant": "ginger",
+	  "name": "5 O'clock Shadow (ginger)"
+	},
+	"hair": {
+	  "itemId": "hair_buzzcut",
+	  "variant": "ginger",
+	  "name": "Buzzcut (ginger)"
+	},
+	"sash": {
+	  "itemId": "belt_obi",
+	  "variant": "leather",
+	  "name": "Obi (leather)"
+	},
+	"sash_tie": {
+	  "itemId": "belt_obi_knot_left",
+	  "variant": "charcoal",
+	  "name": "Obi Knot Left (charcoal)"
+	},
+	"legs": {
+	  "itemId": "legs_formal",
+	  "variant": "black",
+	  "name": "Formal Pants (black)"
+	},
+	"shoes_toe": {
+	  "itemId": "feet_plate_toe_thick",
+	  "variant": "iron",
+	  "name": "Thick Plated Toe (iron)"
+	},
+	"shoes": {
+	  "itemId": "feet_shoes_revised",
+	  "variant": "red",
+	  "name": "Revised Shoes (red)"
+	}
   },
   "selectedAnimation": "idle",
   "showTransparencyGrid": true,
@@ -64,532 +64,532 @@
   "matchBodyColorEnabled": true,
   "compactDisplay": false,
   "enabledLicenses": {
-    "CC0": true,
-    "CC-BY-SA": true,
-    "CC-BY": true,
-    "OGA-BY": true,
-    "GPL": true
+	"CC0": true,
+	"CC-BY-SA": true,
+	"CC-BY": true,
+	"OGA-BY": true,
+	"GPL": true
   },
   "enabledAnimations": {
-    "spellcast": false,
-    "thrust": false,
-    "walk": false,
-    "slash": false,
-    "shoot": false,
-    "hurt": false,
-    "climb": false,
-    "idle": false,
-    "jump": false,
-    "sit": false,
-    "emote": false,
-    "run": false,
-    "watering": false,
-    "combat": false,
-    "1h_slash": false,
-    "1h_backslash": false,
-    "1h_halfslash": false
+	"spellcast": false,
+	"thrust": false,
+	"walk": false,
+	"slash": false,
+	"shoot": false,
+	"hurt": false,
+	"climb": false,
+	"idle": false,
+	"jump": false,
+	"sit": false,
+	"emote": false,
+	"run": false,
+	"watering": false,
+	"combat": false,
+	"1h_slash": false,
+	"1h_backslash": false,
+	"1h_halfslash": false
   },
   "url": "https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/#sex=muscular&body=Body_Color_light&head=Human_Male_light&expression=Neutral_light&neck=Bowtie_red&beard=5_O'clock_Shadow_ginger&hair=Buzzcut_ginger&sash=Obi_leather&sash_tie=Obi_Knot_Left_charcoal&legs=Formal_Pants_black&shoes_toe=Thick_Plated_Toe_iron&shoes=Revised_Shoes_red",
   "layers": [
-    {
-      "itemId": "body",
-      "variant": "light",
-      "zPos": 10,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "body/bodies/muscular/spellcast/light.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt",
-        "climb",
-        "idle",
-        "jump",
-        "sit",
-        "emote",
-        "run",
-        "combat_idle",
-        "backslash",
+	{
+	  "itemId": "body",
+	  "variant": "light",
+	  "zPos": 10,
+	  "layerNum": 1,
+	  "yPos": 0,
+	  "isCustom": false,
+	  "fileName": "body/bodies/muscular/spellcast/light.png",
+	  "supportedAnimations": [
+		"spellcast",
+		"thrust",
+		"walk",
+		"slash",
+		"shoot",
+		"hurt",
+		"climb",
+		"idle",
+		"jump",
+		"sit",
+		"emote",
+		"run",
+		"combat_idle",
+		"backslash",
         "halfslash"
-      ]
-    },
-    {
-      "itemId": "feet_shoes_revised",
-      "variant": "red",
-      "zPos": 15,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "feet/shoes/revised/male/spellcast/red.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt",
-        "climb",
-        "idle",
-        "jump",
-        "sit",
-        "emote",
-        "run",
-        "combat_idle",
-        "backslash",
+	  ]
+	},
+	{
+	  "itemId": "feet_shoes_revised",
+	  "variant": "red",
+	  "zPos": 15,
+	  "layerNum": 1,
+	  "yPos": 0,
+	  "isCustom": false,
+	  "fileName": "feet/shoes/revised/male/spellcast/red.png",
+	  "supportedAnimations": [
+		"spellcast",
+		"thrust",
+		"walk",
+		"slash",
+		"shoot",
+		"hurt",
+		"climb",
+		"idle",
+		"jump",
+		"sit",
+		"emote",
+		"run",
+		"combat_idle",
+		"backslash",
         "halfslash"
-      ]
-    },
-    {
-      "itemId": "legs_formal",
-      "variant": "black",
-      "zPos": 20,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "legs/formal/male/spellcast/black.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt",
-        "climb",
-        "idle",
-        "jump",
-        "sit",
-        "emote",
-        "run",
-        "combat_idle",
-        "backslash",
+	  ]
+	},
+	{
+	  "itemId": "legs_formal",
+	  "variant": "black",
+	  "zPos": 20,
+	  "layerNum": 1,
+	  "yPos": 0,
+	  "isCustom": false,
+	  "fileName": "legs/formal/male/spellcast/black.png",
+	  "supportedAnimations": [
+		"spellcast",
+		"thrust",
+		"walk",
+		"slash",
+		"shoot",
+		"hurt",
+		"climb",
+		"idle",
+		"jump",
+		"sit",
+		"emote",
+		"run",
+		"combat_idle",
+		"backslash",
         "halfslash"
-      ]
-    },
-    {
-      "itemId": "feet_plate_toe_thick",
-      "variant": "iron",
-      "zPos": 27,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "feet/accessory/plate_toe_thick/male/spellcast/iron.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt",
-        "climb",
-        "idle",
-        "jump",
-        "sit",
-        "emote",
-        "run",
-        "combat_idle",
-        "backslash",
+	  ]
+	},
+	{
+	  "itemId": "feet_plate_toe_thick",
+	  "variant": "iron",
+	  "zPos": 27,
+	  "layerNum": 1,
+	  "yPos": 0,
+	  "isCustom": false,
+	  "fileName": "feet/accessory/plate_toe_thick/male/spellcast/iron.png",
+	  "supportedAnimations": [
+		"spellcast",
+		"thrust",
+		"walk",
+		"slash",
+		"shoot",
+		"hurt",
+		"climb",
+		"idle",
+		"jump",
+		"sit",
+		"emote",
+		"run",
+		"combat_idle",
+		"backslash",
         "halfslash"
-      ]
-    },
-    {
-      "itemId": "belt_obi",
-      "variant": "leather",
-      "zPos": 65,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "torso/waist/obi/male/spellcast/leather.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt",
-        "climb",
-        "idle",
-        "jump",
-        "sit",
-        "emote",
-        "run",
-        "combat_idle",
-        "backslash",
+	  ]
+	},
+	{
+	  "itemId": "belt_obi",
+	  "variant": "leather",
+	  "zPos": 65,
+	  "layerNum": 1,
+	  "yPos": 0,
+	  "isCustom": false,
+	  "fileName": "torso/waist/obi/male/spellcast/leather.png",
+	  "supportedAnimations": [
+		"spellcast",
+		"thrust",
+		"walk",
+		"slash",
+		"shoot",
+		"hurt",
+		"climb",
+		"idle",
+		"jump",
+		"sit",
+		"emote",
+		"run",
+		"combat_idle",
+		"backslash",
         "halfslash"
-      ]
-    },
-    {
-      "itemId": "belt_obi_knot_left",
-      "variant": "charcoal",
-      "zPos": 66,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "torso/waist/obi/knot/left/male/spellcast/charcoal.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt",
-        "climb",
-        "idle",
-        "jump",
-        "sit",
-        "emote",
-        "run",
-        "combat_idle",
-        "backslash",
+	  ]
+	},
+	{
+	  "itemId": "belt_obi_knot_left",
+	  "variant": "charcoal",
+	  "zPos": 66,
+	  "layerNum": 1,
+	  "yPos": 0,
+	  "isCustom": false,
+	  "fileName": "torso/waist/obi/knot/left/male/spellcast/charcoal.png",
+	  "supportedAnimations": [
+		"spellcast",
+		"thrust",
+		"walk",
+		"slash",
+		"shoot",
+		"hurt",
+		"climb",
+		"idle",
+		"jump",
+		"sit",
+		"emote",
+		"run",
+		"combat_idle",
+		"backslash",
         "halfslash"
-      ]
-    },
-    {
-      "itemId": "neck_bowtie",
-      "variant": "red",
-      "zPos": 90,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "neck/tie/bowtie/adult/spellcast/red.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt",
-        "climb",
-        "idle",
-        "jump",
-        "sit",
-        "emote",
-        "run",
-        "combat_idle",
-        "backslash",
+	  ]
+	},
+	{
+	  "itemId": "neck_bowtie",
+	  "variant": "red",
+	  "zPos": 90,
+	  "layerNum": 1,
+	  "yPos": 0,
+	  "isCustom": false,
+	  "fileName": "neck/tie/bowtie/adult/spellcast/red.png",
+	  "supportedAnimations": [
+		"spellcast",
+		"thrust",
+		"walk",
+		"slash",
+		"shoot",
+		"hurt",
+		"climb",
+		"idle",
+		"jump",
+		"sit",
+		"emote",
+		"run",
+		"combat_idle",
+		"backslash",
         "halfslash"
-      ]
-    },
-    {
-      "itemId": "heads_human_male",
-      "variant": "light",
-      "zPos": 100,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "head/heads/human/male/spellcast/light.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt",
-        "climb",
-        "idle",
-        "jump",
-        "sit",
-        "emote",
-        "run",
-        "combat_idle",
-        "backslash",
+	  ]
+	},
+	{
+	  "itemId": "heads_human_male",
+	  "variant": "light",
+	  "zPos": 100,
+	  "layerNum": 1,
+	  "yPos": 0,
+	  "isCustom": false,
+	  "fileName": "head/heads/human/male/spellcast/light.png",
+	  "supportedAnimations": [
+		"spellcast",
+		"thrust",
+		"walk",
+		"slash",
+		"shoot",
+		"hurt",
+		"climb",
+		"idle",
+		"jump",
+		"sit",
+		"emote",
+		"run",
+		"combat_idle",
+		"backslash",
         "halfslash"
-      ]
-    },
-    {
-      "itemId": "face_neutral",
-      "variant": "light",
-      "zPos": 101,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "head/faces/male/neutral/spellcast/light.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "idle",
-        "jump",
-        "sit",
-        "emote",
-        "run",
-        "combat_idle",
-        "backslash",
+	  ]
+	},
+	{
+	  "itemId": "face_neutral",
+	  "variant": "light",
+	  "zPos": 101,
+	  "layerNum": 1,
+	  "yPos": 0,
+	  "isCustom": false,
+	  "fileName": "head/faces/male/neutral/spellcast/light.png",
+	  "supportedAnimations": [
+		"spellcast",
+		"thrust",
+		"walk",
+		"slash",
+		"shoot",
+		"idle",
+		"jump",
+		"sit",
+		"emote",
+		"run",
+		"combat_idle",
+		"backslash",
         "halfslash"
-      ]
-    },
-    {
-      "itemId": "beards_5oclock_shadow",
-      "variant": "ginger",
-      "zPos": 111,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "beards/beard/5oclock_shadow/spellcast/ginger.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt",
-        "climb",
-        "idle",
-        "jump",
-        "sit",
-        "emote",
-        "run",
-        "combat_idle",
-        "backslash",
+	  ]
+	},
+	{
+	  "itemId": "beards_5oclock_shadow",
+	  "variant": "ginger",
+	  "zPos": 111,
+	  "layerNum": 1,
+	  "yPos": 0,
+	  "isCustom": false,
+	  "fileName": "beards/beard/5oclock_shadow/spellcast/ginger.png",
+	  "supportedAnimations": [
+		"spellcast",
+		"thrust",
+		"walk",
+		"slash",
+		"shoot",
+		"hurt",
+		"climb",
+		"idle",
+		"jump",
+		"sit",
+		"emote",
+		"run",
+		"combat_idle",
+		"backslash",
         "halfslash"
-      ]
-    },
-    {
-      "itemId": "hair_buzzcut",
-      "variant": "ginger",
-      "zPos": 120,
-      "layerNum": 1,
-      "yPos": 0,
-      "isCustom": false,
-      "fileName": "hair/buzzcut/adult/spellcast/ginger.png",
-      "supportedAnimations": [
-        "spellcast",
-        "thrust",
-        "walk",
-        "slash",
-        "shoot",
-        "hurt",
-        "climb",
-        "idle",
-        "jump",
-        "sit",
-        "emote",
-        "run",
-        "combat_idle",
-        "backslash",
+	  ]
+	},
+	{
+	  "itemId": "hair_buzzcut",
+	  "variant": "ginger",
+	  "zPos": 120,
+	  "layerNum": 1,
+	  "yPos": 0,
+	  "isCustom": false,
+	  "fileName": "hair/buzzcut/adult/spellcast/ginger.png",
+	  "supportedAnimations": [
+		"spellcast",
+		"thrust",
+		"walk",
+		"slash",
+		"shoot",
+		"hurt",
+		"climb",
+		"idle",
+		"jump",
+		"sit",
+		"emote",
+		"run",
+		"combat_idle",
+		"backslash",
         "halfslash"
-      ]
-    }
+	  ]
+	}
   ],
   "credits": [
-    {
-      "fileName": "body/bodies/muscular/idle/light.png",
-      "file": "body/bodies/muscular",
-      "notes": "see details at https://opengameart.org/content/lpc-character-bases",
-      "authors": [
-        "bluecarrot16",
-        "JaidynReiman",
-        "Evert",
-        "TheraHedwig",
-        "MuffinElZangano",
-        "Durrani",
-        "Sander Frenken (castelonia)",
-        "Benjamin K. Smith (BenCreating)",
-        "Eliza Wyatt (ElizaWy)",
-        "dalonedrau",
+	{
+	  "fileName": "body/bodies/muscular/idle/light.png",
+	  "file": "body/bodies/muscular",
+	  "notes": "see details at https://opengameart.org/content/lpc-character-bases",
+	  "authors": [
+		"bluecarrot16",
+		"JaidynReiman",
+		"Evert",
+		"TheraHedwig",
+		"MuffinElZangano",
+		"Durrani",
+		"Sander Frenken (castelonia)",
+		"Benjamin K. Smith (BenCreating)",
+		"Eliza Wyatt (ElizaWy)",
+		"dalonedrau",
         "Stephen Challener (Redshrike)"
-      ],
-      "licenses": [
-        "CC-BY-SA 3.0",
+	  ],
+	  "licenses": [
+		"CC-BY-SA 3.0",
         "GPL 3.0"
-      ],
-      "urls": [
-        "https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles",
-        "https://opengameart.org/content/lpc-barbarian-sprite-base",
-        "https://opengameart.org/content/lpc-muscular-swing-animation",
-        "https://opengameart.org/content/lpc-muscular-hurt-animation",
-        "https://opengameart.org/content/lpc-jump-expanded",
-        "https://opengameart.org/content/lpc-revised-character-basics",
-        "https://opengameart.org/content/lpc-be-seated",
-        "https://opengameart.org/content/lpc-jump-expanded",
-        "https://opengameart.org/content/lpc-character-bases",
+	  ],
+	  "urls": [
+		"https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles",
+		"https://opengameart.org/content/lpc-barbarian-sprite-base",
+		"https://opengameart.org/content/lpc-muscular-swing-animation",
+		"https://opengameart.org/content/lpc-muscular-hurt-animation",
+		"https://opengameart.org/content/lpc-jump-expanded",
+		"https://opengameart.org/content/lpc-revised-character-basics",
+		"https://opengameart.org/content/lpc-be-seated",
+		"https://opengameart.org/content/lpc-jump-expanded",
+		"https://opengameart.org/content/lpc-character-bases",
         "https://opengameart.org/content/lpc-male-jumping-animation-by-durrani"
-      ]
-    },
-    {
-      "fileName": "head/heads/human/male/idle/light.png",
-      "file": "head/heads/human/male",
-      "notes": "original head by Redshrike, tweaks by BenCreating, modular version by bluecarrot16",
-      "authors": [
-        "bluecarrot16",
-        "Benjamin K. Smith (BenCreating)",
+	  ]
+	},
+	{
+	  "fileName": "head/heads/human/male/idle/light.png",
+	  "file": "head/heads/human/male",
+	  "notes": "original head by Redshrike, tweaks by BenCreating, modular version by bluecarrot16",
+	  "authors": [
+		"bluecarrot16",
+		"Benjamin K. Smith (BenCreating)",
         "Stephen Challener (Redshrike)"
-      ],
-      "licenses": [
-        "OGA-BY 3.0",
-        "CC-BY-SA 3.0",
+	  ],
+	  "licenses": [
+		"OGA-BY 3.0",
+		"CC-BY-SA 3.0",
         "GPL 3.0"
-      ],
-      "urls": [
-        "https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles",
+	  ],
+	  "urls": [
+		"https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles",
         "https://opengameart.org/content/lpc-character-bases"
-      ]
-    },
-    {
-      "fileName": "head/faces/male/neutral/idle/light.png",
-      "file": "head/faces",
-      "notes": "Original by Redshrike, Expressions by ElizaWy, mapped to all frames by JaidynReiman",
-      "authors": [
-        "JaidynReiman",
-        "ElizaWy",
+	  ]
+	},
+	{
+	  "fileName": "head/faces/male/neutral/idle/light.png",
+	  "file": "head/faces",
+	  "notes": "Original by Redshrike, Expressions by ElizaWy, mapped to all frames by JaidynReiman",
+	  "authors": [
+		"JaidynReiman",
+		"ElizaWy",
         "Stephen Challener (Redshrike)"
-      ],
-      "licenses": [
+	  ],
+	  "licenses": [
         "OGA-BY 3.0"
-      ],
-      "urls": [
-        "https://github.com/ElizaWy/LPC/tree/main/Characters/Head",
+	  ],
+	  "urls": [
+		"https://github.com/ElizaWy/LPC/tree/main/Characters/Head",
         "https://opengameart.org/content/ulpc-expanded-expressions"
-      ]
-    },
-    {
-      "fileName": "neck/tie/bowtie/adult/idle/red.png",
-      "file": "neck/tie/bowtie",
-      "notes": "Originally by pennomi/laetissima/Makrohn, edited by bluecarrot16, recolors by JaidynReiman",
-      "authors": [
-        "JaidynReiman",
-        "bluecarrot16",
-        "Thane Brimhall (pennomi)",
-        "laetissima",
+	  ]
+	},
+	{
+	  "fileName": "neck/tie/bowtie/adult/idle/red.png",
+	  "file": "neck/tie/bowtie",
+	  "notes": "Originally by pennomi/laetissima/Makrohn, edited by bluecarrot16, recolors by JaidynReiman",
+	  "authors": [
+		"JaidynReiman",
+		"bluecarrot16",
+		"Thane Brimhall (pennomi)",
+		"laetissima",
         "Makrohn"
-      ],
-      "licenses": [
-        "CC-BY-SA 3.0",
+	  ],
+	  "licenses": [
+		"CC-BY-SA 3.0",
         "GPL 3.0"
-      ],
-      "urls": [
-        "https://opengameart.org/content/lpc-2-characters",
+	  ],
+	  "urls": [
+		"https://opengameart.org/content/lpc-2-characters",
         "https://opengameart.org/content/lpc-gentleman"
-      ]
-    },
-    {
-      "fileName": "beards/beard/5oclock_shadow/idle/ginger.png",
-      "file": "beards/beard/5oclock_shadow",
-      "notes": "Original by Pennomi, repositioning by JaidynReiman.",
-      "authors": [
-        "JaidynReiman",
-        "Thane Brimhall (pennomi)",
+	  ]
+	},
+	{
+	  "fileName": "beards/beard/5oclock_shadow/idle/ginger.png",
+	  "file": "beards/beard/5oclock_shadow",
+	  "notes": "Original by Pennomi, repositioning by JaidynReiman.",
+	  "authors": [
+		"JaidynReiman",
+		"Thane Brimhall (pennomi)",
         "laetissima"
-      ],
-      "licenses": [
-        "CC-BY-SA 3.0",
+	  ],
+	  "licenses": [
+		"CC-BY-SA 3.0",
         "GPL 3.0"
-      ],
-      "urls": [
+	  ],
+	  "urls": [
         "https://opengameart.org/content/lpc-base-character-expressions"
-      ]
-    },
-    {
-      "fileName": "hair/buzzcut/adult/idle/ginger.png",
-      "file": "hair/buzzcut",
-      "notes": "",
-      "authors": [
+	  ]
+	},
+	{
+	  "fileName": "hair/buzzcut/adult/idle/ginger.png",
+	  "file": "hair/buzzcut",
+	  "notes": "",
+	  "authors": [
         "ElizaWy"
-      ],
-      "licenses": [
+	  ],
+	  "licenses": [
         "OGA-BY 3.0"
-      ],
-      "urls": [
+	  ],
+	  "urls": [
         "https://opengameart.org/content/lpc-hair"
-      ]
-    },
-    {
-      "fileName": "torso/waist/obi/male/idle/leather.png",
-      "file": "torso/waist/obi",
-      "notes": "",
-      "authors": [
+	  ]
+	},
+	{
+	  "fileName": "torso/waist/obi/male/idle/leather.png",
+	  "file": "torso/waist/obi",
+	  "notes": "",
+	  "authors": [
         "JaidynReiman"
-      ],
-      "licenses": [
-        "OGA-BY 3.0+",
-        "CC-BY 3.0+",
+	  ],
+	  "licenses": [
+		"OGA-BY 3.0+",
+		"CC-BY 3.0+",
         "GPL 3.0"
-      ],
-      "urls": [
+	  ],
+	  "urls": [
         "https://opengameart.org/content/lpc-kimono-relm"
-      ]
-    },
-    {
-      "fileName": "torso/waist/obi/knot/left/male/idle/charcoal.png",
-      "file": "torso/waist/obi/knot",
-      "notes": "",
-      "authors": [
+	  ]
+	},
+	{
+	  "fileName": "torso/waist/obi/knot/left/male/idle/charcoal.png",
+	  "file": "torso/waist/obi/knot",
+	  "notes": "",
+	  "authors": [
         "JaidynReiman"
-      ],
-      "licenses": [
-        "OGA-BY 3.0+",
-        "CC-BY 3.0+",
+	  ],
+	  "licenses": [
+		"OGA-BY 3.0+",
+		"CC-BY 3.0+",
         "GPL 3.0"
-      ],
-      "urls": [
+	  ],
+	  "urls": [
         "https://opengameart.org/content/lpc-kimono-relm"
-      ]
-    },
-    {
-      "fileName": "legs/formal/male/idle/black.png",
-      "file": "legs/formal",
-      "notes": "Original pants by Stephen Challener (Redshrike), thrust/shoot bases by Wulax, Formal Pants by Bluecarrot16, climb/jump/run/sit/emotes/revised combat by JaidynReiman",
-      "authors": [
-        "bluecarrot16",
-        "JaidynReiman",
-        "ElizaWy",
-        "Johannes Sjölund (wulax)",
+	  ]
+	},
+	{
+	  "fileName": "legs/formal/male/idle/black.png",
+	  "file": "legs/formal",
+	  "notes": "Original pants by Stephen Challener (Redshrike), thrust/shoot bases by Wulax, Formal Pants by Bluecarrot16, climb/jump/run/sit/emotes/revised combat by JaidynReiman",
+	  "authors": [
+		"bluecarrot16",
+		"JaidynReiman",
+		"ElizaWy",
+		"Johannes Sjölund (wulax)",
         "Stephen Challener (Redshrike)"
-      ],
-      "licenses": [
-        "OGA-BY 3.0",
-        "CC-BY-SA 3.0",
+	  ],
+	  "licenses": [
+		"OGA-BY 3.0",
+		"CC-BY-SA 3.0",
         "GPL 3.0"
-      ],
-      "urls": [
-        "https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles",
-        "https://opengameart.org/content/lpc-medieval-fantasy-character-sprites",
-        "https://opengameart.org/content/lpc-2-characters",
-        "https://opengameart.org/content/lpc-gentleman",
+	  ],
+	  "urls": [
+		"https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles",
+		"https://opengameart.org/content/lpc-medieval-fantasy-character-sprites",
+		"https://opengameart.org/content/lpc-2-characters",
+		"https://opengameart.org/content/lpc-gentleman",
         "https://opengameart.org/content/lpc-expanded-pants"
-      ]
-    },
-    {
-      "fileName": "feet/accessory/plate_toe_thick/male/idle/iron.png",
-      "file": "feet/accessory/plate_toe_thick",
-      "notes": "",
-      "authors": [
+	  ]
+	},
+	{
+	  "fileName": "feet/accessory/plate_toe_thick/male/idle/iron.png",
+	  "file": "feet/accessory/plate_toe_thick",
+	  "notes": "",
+	  "authors": [
         "JaidynReiman"
-      ],
-      "licenses": [
-        "OGA-BY 3.0+",
-        "CC-BY 3.0+",
+	  ],
+	  "licenses": [
+		"OGA-BY 3.0+",
+		"CC-BY 3.0+",
         "GPL 3.0"
-      ],
-      "urls": [
-        "https://opengameart.org/content/lpc-kimono-relm",
+	  ],
+	  "urls": [
+		"https://opengameart.org/content/lpc-kimono-relm",
         "https://opengameart.org/content/lpc-expanded-socks-shoes"
-      ]
-    },
-    {
-      "fileName": "feet/shoes/revised/male/idle/red.png",
-      "file": "feet/shoes/revised/male",
-      "notes": "original overalls and shoes by ElizaWy, base animations adapted from v3 overalls by bluecarrot16, shoes by JaidynReiman",
-      "authors": [
-        "JaidynReiman",
-        "ElizaWy",
-        "Bluecarrot16",
-        "Stephen Challener (Redshrike)",
+	  ]
+	},
+	{
+	  "fileName": "feet/shoes/revised/male/idle/red.png",
+	  "file": "feet/shoes/revised/male",
+	  "notes": "original overalls and shoes by ElizaWy, base animations adapted from v3 overalls by bluecarrot16, shoes by JaidynReiman",
+	  "authors": [
+		"JaidynReiman",
+		"ElizaWy",
+		"Bluecarrot16",
+		"Stephen Challener (Redshrike)",
         "Johannes Sjölund (wulax)"
-      ],
-      "licenses": [
-        "OGA-BY 3.0",
+	  ],
+	  "licenses": [
+		"OGA-BY 3.0",
         "GPL 3.0"
-      ],
-      "urls": [
-        "https://github.com/ElizaWy/LPC/tree/main/Characters/Clothing",
+	  ],
+	  "urls": [
+		"https://github.com/ElizaWy/LPC/tree/main/Characters/Clothing",
         "https://opengameart.org/content/lpc-expanded-socks-shoes"
-      ]
-    }
+	  ]
+	}
   ]
 }

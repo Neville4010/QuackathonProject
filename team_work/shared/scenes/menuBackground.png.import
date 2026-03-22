@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c4x5pketwtoj8"
-path="res://.godot/imported/locations_to_go.png-7559ec3c4ce1c032eed3df37ab59c9a6.ctex"
+uid="uid://dxjk1h3sydjwo"
+path="res://.godot/imported/menuBackground.png-7621e58b403c686befb72bb52953dfc6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/scenery/locations_to_go.png"
-dest_files=["res://.godot/imported/locations_to_go.png-7559ec3c4ce1c032eed3df37ab59c9a6.ctex"]
+source_file="res://scenes/menuBackground.png"
+dest_files=["res://.godot/imported/menuBackground.png-7621e58b403c686befb72bb52953dfc6.ctex"]
 
 [params]
 
