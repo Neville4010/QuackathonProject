@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" path="res://scenes/entities/player/cafe_owner.tscn" id="6_vtaks"]
 [ext_resource type="PackedScene" path="res://scenes/entities/player/casino_bouncer.tscn" id="7_kvpfn"]
 [ext_resource type="PackedScene" path="res://scenes/entities/player/shop_assistant.tscn" id="8_dinhu"]
+[ext_resource type="PackedScene" path="res://scenes/entities/player/recruitment_manager.tscn" id="9_kvuet"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lnu2h"]
 texture = ExtResource("1_uwrxv")
@@ -4254,3 +4255,5 @@ position = Vector2(-33, 354)
 
 [node name="shop_assistant" parent="." unique_id=999644255 instance=ExtResource("8_dinhu")]
 position = Vector2(-467, 329)
+
+[node name="recruitment_manager" parent="." unique_id=1703340678 instance=ExtResource("9_kvuet")]
