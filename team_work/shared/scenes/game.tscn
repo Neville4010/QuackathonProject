@@ -4,6 +4,9 @@
 [ext_resource type="Texture2D" uid="uid://b6o6cocn8qum7" path="res://assets/backgrounds/background-scene.png" id="3_lbhrr"]
 [ext_resource type="Texture2D" uid="uid://7s21r47chbh7" path="res://assets/scenery/locations_to_go.png" id="3_lnu2h"]
 [ext_resource type="PackedScene" uid="uid://bhtvjpgq6k2aj" path="res://scenes/entities/player/player.tscn" id="4_lbhrr"]
+[ext_resource type="PackedScene" uid="uid://ckd3i55c3lrfg" path="res://scenes/entities/player/bank_owner.tscn" id="5_u5sy4"]
+[ext_resource type="PackedScene" uid="uid://dec324ta3xrpg" path="res://scenes/entities/player/cafe_owner.tscn" id="6_gee14"]
+[ext_resource type="PackedScene" uid="uid://buolp4atne2l6" path="res://scenes/entities/player/casino_owner.tscn" id="7_0tnpc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lnu2h"]
 texture = ExtResource("1_uwrxv")
@@ -4116,3 +4119,13 @@ layer_2/name = "locationstogo"
 layer_2/tile_data = PackedInt32Array(65535, 262146, 3, -1, 262146, 2, -65536, 327682, 2, 0, 327682, 3, -720914, 2, 0, -655378, 2, 1, -720913, 65538, 0, -655377, 65538, 1, -1114082, 131074, 2, -1048546, 131074, 3, -1114081, 196610, 2, -1048545, 196610, 3, 655391, 131074, 0, 720927, 131074, 1, 655392, 196610, 0, 720928, 196610, 1, 1179645, 2, 2, 1245181, 2, 3, 1179646, 65538, 2, 1245182, 65538, 3, 1179615, 262146, 0, 1245151, 262146, 1, 1179616, 327682, 0, 1245152, 327682, 1)
 
 [node name="Player" parent="." unique_id=351402628 instance=ExtResource("4_lbhrr")]
+position = Vector2(-241, -165)
+
+[node name="bank_owner" parent="." unique_id=1455297874 instance=ExtResource("5_u5sy4")]
+position = Vector2(556, 192)
+
+[node name="cafe_owner" parent="." unique_id=1713720380 instance=ExtResource("6_gee14")]
+position = Vector2(-32, 20)
+
+[node name="casino_owner" parent="." unique_id=2021554353 instance=ExtResource("7_0tnpc")]
+position = Vector2(0, 304)

@@ -8,4 +8,6 @@ func _ready():
 func _input(event):
 	if event is InputEventKey and event.pressed:
 		if event.keycode == KEY_T:
-			get_tree().change_scene_to_file("res://scenes/game.tscn")
+			get_tree().change_scene_to_file(
+				"res://scenes/game.tscn"
+			)
