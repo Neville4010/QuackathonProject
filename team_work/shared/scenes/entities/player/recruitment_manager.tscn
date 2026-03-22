@@ -64,3 +64,7 @@ shape = SubResource("CircleShape2D_0ewe6")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1753840135]
 libraries/ = SubResource("AnimationLibrary_bostd")
+
+[node name="Label" type="Label" parent="." unique_id=696505870]
+offset_right = 40.0
+offset_bottom = 23.0
