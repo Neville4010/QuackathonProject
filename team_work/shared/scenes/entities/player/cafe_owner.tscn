@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://dec324ta3xrpg"]
+
+[ext_resource type="Texture2D" uid="uid://ca6ghmbanfmne" path="res://assets/players/cafe_owner/standard/idle.png" id="1_7r3o1"]
+[ext_resource type="Script" uid="uid://cgwpbxvid4ju7" path="res://scenes/entities/player/cafe_owner.gd" id="1_ufn2l"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ufn2l"]
+radius = 14.0
+
+[sub_resource type="Animation" id="Animation_kmfk6"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [26]
+}
+
+[sub_resource type="Animation" id="Animation_oayst"]
+resource_name = "idle_down"
+length = 0.6
+loop_mode = 1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.25),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [26, 27]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_y1niv"]
+_data = {
+&"RESET": SubResource("Animation_kmfk6"),
+&"idle_down": SubResource("Animation_oayst")
+}
+
+[node name="cafe_owner" type="CharacterBody2D" unique_id=1713720380]
+script = ExtResource("1_ufn2l")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1250750432]
+position = Vector2(0, -30.4)
+texture = ExtResource("1_7r3o1")
+hframes = 13
+vframes = 4
+frame = 26
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=522430848]
+shape = SubResource("CircleShape2D_ufn2l")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1597283125]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=2055433432]
+libraries/ = SubResource("AnimationLibrary_y1niv")
