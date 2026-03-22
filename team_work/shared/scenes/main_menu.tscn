@@ -1,7 +1,20 @@
 [gd_scene format=3 uid="uid://b8ah0i82xcgux"]
 
 [ext_resource type="Texture2D" uid="uid://dxjk1h3sydjwo" path="res://scenes/menuBackground.png" id="1_l6cm7"]
+[ext_resource type="FontFile" uid="uid://d11x7flnuqb5o" path="res://scenes/ari-w9500-bold.ttf" id="2_bqqt6"]
 [ext_resource type="FontFile" uid="uid://fwpiaemwd674" path="res://scenes/GrapeSoda.ttf" id="2_ekxnf"]
+
+[sub_resource type="GDScript" id="GDScript_bqqt6"]
+script/source = "extends Control
+
+
+func _on_start_pressed() -> void:
+	get_tree().change_scene_to_file(\"res://scenes/entities/player/intro_scene.tscn\")
+
+
+func _on_exit_pressed() -> void:
+	get_tree().quit()
+"
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ekxnf"]
 texture = ExtResource("1_l6cm7")
@@ -17,6 +30,26 @@ shadow_color = Color(0, 0, 0, 0.20392157)
 shadow_size = 5
 shadow_offset = Vector2(0, 3.41)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bqqt6"]
+bg_color = Color(0.2355403, 0.33009592, 0.3515151, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0, 0, 0, 0.20392157)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wu84c"]
+bg_color = Color(0.34440175, 0.46560657, 0.49313885, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0, 0, 0, 0.20392157)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.41)
+
 [node name="MainMenu" type="Control" unique_id=1082786502]
 layout_mode = 3
 anchors_preset = 15
@@ -24,6 +57,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = SubResource("GDScript_bqqt6")
 
 [node name="Panel" type="Panel" parent="." unique_id=1562100497]
 layout_mode = 1
@@ -51,8 +85,11 @@ metadata/_edit_use_anchors_ = true
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0.8779732, 0.8722485, 0.8807685, 1)
+theme_override_fonts/font = ExtResource("2_bqqt6")
 theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_vue75")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_bqqt6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wu84c")
 text = "Start Game"
 
 [node name="Button2" type="Button" parent="VBoxContainer" unique_id=915757039]
@@ -60,8 +97,11 @@ layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0.8779732, 0.8722485, 0.8807685, 1)
 theme_override_constants/h_separation = 0
+theme_override_fonts/font = ExtResource("2_bqqt6")
 theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_vue75")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_bqqt6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wu84c")
 text = "Exit Game"
 
 [node name="Label" type="Label" parent="." unique_id=289047862]
@@ -79,3 +119,6 @@ theme_override_constants/shadow_offset_y = 10
 theme_override_fonts/font = ExtResource("2_ekxnf")
 theme_override_font_sizes/font_size = 150
 text = "ALOGO"
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_exit_pressed"]
