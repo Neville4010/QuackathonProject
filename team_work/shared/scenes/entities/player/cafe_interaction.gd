@@ -22,5 +22,6 @@ func show_thank_you(drink: String, time: String):
 	sub_label.visible = false
 	thank_you_label.visible = true
 	thank_you_label.text = "Thank you for ordering a " + drink + "!\nCome back next time for new drinks.\nLeaving in 4 seconds..."
-	await get_tree().create_timer(2.0).timeout
-	get_tree().change_scene_to_file("res://scenes/game.tscn")
+	var timer = get_tree().create_timer(4.0)
+	await timer.timeout
+	get_tree().change_scene_to_file("res://scenes/levels/game.tscn")
