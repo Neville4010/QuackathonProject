@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://ciewraa7drelp"]
 
 [ext_resource type="Texture2D" uid="uid://ouhsaywwf4sr" path="res://assets/scenery/Attempt_at_tile_sheet.png" id="1_cx7qy"]
+[ext_resource type="Script" uid="uid://bjrrpv7vw8sgu" path="res://scenes/levels/game.gd" id="1_uk881"]
 [ext_resource type="Texture2D" uid="uid://b6o6cocn8qum7" path="res://assets/backgrounds/background-scene.png" id="2_uk881"]
 [ext_resource type="Texture2D" uid="uid://c4x5pketwtoj8" path="res://assets/scenery/locations_to_go.png" id="3_r0gsk"]
 [ext_resource type="PackedScene" uid="uid://bhtvjpgq6k2aj" path="res://scenes/entities/player/player.tscn" id="4_oi2tv"]
@@ -4243,6 +4244,7 @@ size = Vector2(33, 676)
 size = Vector2(1191, 28)
 
 [node name="game" type="Node2D" unique_id=661696141]
+script = ExtResource("1_uk881")
 
 [node name="TileMap" type="TileMap" parent="." unique_id=1811532693]
 tile_set = SubResource("TileSet_iywne")
@@ -4303,5 +4305,31 @@ offset_left = -535.0
 offset_top = -276.0
 offset_right = -394.0
 offset_bottom = -171.0
+
+[node name="Cafe" type="Button" parent="." unique_id=2138615795]
+offset_left = -27.0
+offset_top = 51.0
+offset_right = 35.0
+offset_bottom = 99.0
+text = "Cafe"
+
+[node name="Bank" type="Button" parent="." unique_id=1490490985]
+offset_left = 501.0
+offset_top = 243.0
+offset_right = 557.0
+offset_bottom = 278.0
+text = "Bank"
+
+[node name="Job" type="Button" parent="." unique_id=1146751985]
+offset_left = 487.0
+offset_top = -230.0
+offset_right = 553.0
+offset_bottom = -206.0
+text = "Job
+"
+
+[connection signal="pressed" from="Cafe" to="." method="_on_cafe_pressed"]
+[connection signal="pressed" from="Bank" to="." method="_on_bank_pressed"]
+[connection signal="pressed" from="Job" to="." method="_on_job_pressed"]
 
 [editable path="countdown"]

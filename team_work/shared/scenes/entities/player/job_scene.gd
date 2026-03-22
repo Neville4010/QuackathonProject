@@ -121,7 +121,7 @@ func accept_job():
 
 func toggle_task_panel():
 	if task_panel_visible:
-		get_tree().change_scene_to_file("res://scenes/game.tscn")
+		get_tree().change_scene_to_file("res://scenes/levels/game.tscn")
 	else:
 		task_panel_visible = true
 		task_panel.visible = true
@@ -132,5 +132,5 @@ func give_up():
 	dialogue_panel.visible = true
 	dialogue_label.text = "Sucks to be you! Back to the city!"
 	continue_button.pressed.connect(
-		func(): get_tree().change_scene_to_file("res://scenes/game.tscn")
+		func(): get_tree().change_scene_to_file("res://scenes/levels/game.tscn")
 	)

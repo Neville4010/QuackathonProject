@@ -27,4 +27,4 @@ func _on_continue_pressed():
 	if current_line < dialogue.size():
 		label.text = dialogue[current_line]
 	else:
-		get_tree().change_scene_to_file("res://scenes/game.tscn")
+		get_tree().change_scene_to_file("res://scenes/levels/game.tscn")

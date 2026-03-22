@@ -13,4 +13,4 @@ func _process(delta):
 			progress = 100
 			loading_text.text = "             COMPLETE!"
 			await get_tree().create_timer(1.0).timeout
-			get_tree().change_scene_to_file("res://scenes/entities/intro_scene.tscn")
+			get_tree().change_scene_to_file("res://scenes/levels/main_menu.tscn")
