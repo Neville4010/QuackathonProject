@@ -108,6 +108,10 @@ func reject_job():
 
 func accept_job():
 	accepted_job = current_jobs[current_job_index]
+	TaskStorage.task1 = accepted_job["tasks"][0]
+	TaskStorage.task2 = accepted_job["tasks"][1]
+	TaskStorage.task3 = accepted_job["tasks"][2]
+	TaskStorage.has_job = true
 	swipe_panel.visible = false
 	task_panel.visible = true
 	task1.text = "1. " + accepted_job["tasks"][0]
