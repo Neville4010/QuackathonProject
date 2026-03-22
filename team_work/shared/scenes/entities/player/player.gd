@@ -50,7 +50,7 @@ func get_idle_frame() -> int:
 	
 func _input(event):
 	if event is InputEventKey and event.pressed:
-		if event.keycode == KEY_T and TaskStorage.has_job:
+		if event.keycode == KEY_T:
 			get_tree().change_scene_to_file(
-				"res://scenes/accepted_tasks.tscn"
+				"res://scenes/entities/player/accepted_tasks.tscn"
 			)

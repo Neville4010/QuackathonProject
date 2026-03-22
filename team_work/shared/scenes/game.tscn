@@ -4,10 +4,16 @@
 [ext_resource type="Texture2D" uid="uid://b6o6cocn8qum7" path="res://assets/backgrounds/background-scene.png" id="3_lbhrr"]
 [ext_resource type="Texture2D" uid="uid://c4x5pketwtoj8" path="res://assets/scenery/locations_to_go.png" id="3_lnu2h"]
 [ext_resource type="PackedScene" uid="uid://bhtvjpgq6k2aj" path="res://scenes/entities/player/player.tscn" id="4_lbhrr"]
+<<<<<<< HEAD
+[ext_resource type="PackedScene" uid="uid://ckd3i55c3lrfg" path="res://scenes/entities/player/bank_owner.tscn" id="5_u5sy4"]
+[ext_resource type="PackedScene" uid="uid://dec324ta3xrpg" path="res://scenes/entities/player/cafe_owner.tscn" id="6_gee14"]
+[ext_resource type="PackedScene" uid="uid://buolp4atne2l6" path="res://scenes/entities/player/casino_owner.tscn" id="7_0tnpc"]
+=======
 [ext_resource type="PackedScene" path="res://scenes/entities/player/bank_owner.tscn" id="5_0tnpc"]
 [ext_resource type="PackedScene" path="res://scenes/entities/player/cafe_owner.tscn" id="6_vtaks"]
 [ext_resource type="PackedScene" path="res://scenes/entities/player/casino_bouncer.tscn" id="7_kvpfn"]
 [ext_resource type="PackedScene" path="res://scenes/entities/player/shop_assistant.tscn" id="8_dinhu"]
+>>>>>>> fa8b0aa8f3a324df819175426797351bc46c77f7
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lnu2h"]
 texture = ExtResource("1_uwrxv")
@@ -4242,6 +4248,18 @@ layer_2/name = "locationstogo"
 layer_2/tile_data = PackedInt32Array(65535, 851972, 7, -1, 851972, 6, -65536, 917508, 6, 0, 917508, 7, -851988, 4, 0, -786452, 4, 1, -720916, 4, 2, -655380, 4, 3, -589844, 4, 4, -851987, 65540, 0, -786451, 65540, 1, -720915, 65540, 2, -655379, 65540, 3, -589843, 65540, 4, -851986, 131076, 0, -786450, 131076, 1, -720914, 131076, 2, -655378, 131076, 3, -589842, 131076, 4, -851985, 196612, 0, -786449, 196612, 1, -720913, 196612, 2, -655377, 196612, 3, -589841, 196612, 4, -786448, 262148, 1, -720912, 262148, 2, -655376, 262148, 3, -589840, 262148, 4, 524318, 327684, 0, 589854, 327684, 1, 655390, 327684, 2, 720926, 327684, 3, 786462, 327684, 4, 524319, 393220, 0, 589855, 393220, 1, 655391, 393220, 2, 720927, 393220, 3, 786463, 393220, 4, 524320, 458756, 0, 589856, 458756, 1, 655392, 458756, 2, 720928, 458756, 3, 786464, 458756, 4, 524321, 524292, 0, 589857, 524292, 1, 655393, 524292, 2, 720929, 524292, 3, 786465, 524292, 4, 524322, 589828, 0, 589858, 589828, 1, 655394, 589828, 2, 720930, 589828, 3, 786466, 589828, 4, 524323, 655364, 0, 589859, 655364, 1, 655395, 655364, 2, 720931, 655364, 3, 786467, 655364, 4, -1245154, 327684, 6, -1179618, 327684, 7, -1114082, 327684, 8, -1048546, 327684, 9, -1245153, 393220, 6, -1179617, 393220, 7, -1114081, 393220, 8, -1048545, 393220, 9, -1245152, 458756, 6, -1179616, 458756, 7, -1114080, 458756, 8, -1048544, 458756, 9, -1245151, 524292, 6, -1179615, 524292, 7, -1114079, 524292, 8, -1048543, 524292, 9, -1245150, 589828, 6, -1179614, 589828, 7, -1114078, 589828, 8, -1048542, 589828, 9, -1245149, 655364, 6, -1179613, 655364, 7, -1114077, 655364, 8, -1048541, 655364, 9, 131069, 720900, 8, 196605, 720900, 9, -2, 786436, 6, 65534, 786436, 7, 131070, 786436, 8, 196606, 786436, 9, 131071, 851972, 8, 196607, 851972, 9, 65536, 917508, 8, 131072, 917508, 9, -65535, 983044, 6, 1, 983044, 7, 65537, 983044, 8, 131073, 983044, 9, 1179644, 4, 6, 1245180, 4, 7, 1310716, 4, 8, 1376252, 4, 9, 1114109, 65540, 5, 1179645, 65540, 6, 1245181, 65540, 7, 1310717, 65540, 8, 1376253, 65540, 9, 1114110, 131076, 5, 1179646, 131076, 6, 1245182, 131076, 7, 1310718, 131076, 8, 1376254, 131076, 9, 1114111, 196612, 5, 1179647, 196612, 6, 1245183, 196612, 7, 1310719, 196612, 8, 1376255, 196612, 9, 1114112, 262148, 6, 1179648, 262148, 7, 1245184, 262148, 8, 1310720, 262148, 9, 1179614, 720900, 1, 1245150, 720900, 2, 1310686, 720900, 3, 1376222, 720900, 4, 1179615, 786436, 1, 1245151, 786436, 2, 1310687, 786436, 3, 1376223, 786436, 4, 1179616, 851972, 1, 1245152, 851972, 2, 1310688, 851972, 3, 1376224, 851972, 4, 1179617, 917508, 1, 1245153, 917508, 2, 1310689, 917508, 3, 1376225, 917508, 4, 1114082, 983044, 0, 1179618, 983044, 1, 1245154, 983044, 2, 1310690, 983044, 3, 1376226, 983044, 4)
 
 [node name="Player" parent="." unique_id=351402628 instance=ExtResource("4_lbhrr")]
+<<<<<<< HEAD
+position = Vector2(-241, -165)
+
+[node name="bank_owner" parent="." unique_id=1455297874 instance=ExtResource("5_u5sy4")]
+position = Vector2(556, 192)
+
+[node name="cafe_owner" parent="." unique_id=1713720380 instance=ExtResource("6_gee14")]
+position = Vector2(-32, 20)
+
+[node name="casino_owner" parent="." unique_id=2021554353 instance=ExtResource("7_0tnpc")]
+position = Vector2(0, 304)
+=======
 
 [node name="bank_owner" parent="." unique_id=1455297874 instance=ExtResource("5_0tnpc")]
 position = Vector2(528, 223)
@@ -4254,3 +4272,4 @@ position = Vector2(-33, 354)
 
 [node name="shop_assistant" parent="." unique_id=999644255 instance=ExtResource("8_dinhu")]
 position = Vector2(-467, 329)
+>>>>>>> fa8b0aa8f3a324df819175426797351bc46c77f7
