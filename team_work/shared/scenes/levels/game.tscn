@@ -4,10 +4,11 @@
 [ext_resource type="Texture2D" uid="uid://b6o6cocn8qum7" path="res://assets/backgrounds/background-scene.png" id="2_uk881"]
 [ext_resource type="Texture2D" uid="uid://c4x5pketwtoj8" path="res://assets/scenery/locations_to_go.png" id="3_r0gsk"]
 [ext_resource type="PackedScene" uid="uid://bhtvjpgq6k2aj" path="res://scenes/entities/player/player.tscn" id="4_oi2tv"]
-[ext_resource type="PackedScene" path="res://scenes/entities/player/cafe_owner.tscn" id="5_6370d"]
-[ext_resource type="PackedScene" path="res://scenes/entities/player/casino_owner.tscn" id="6_fojqs"]
-[ext_resource type="PackedScene" path="res://scenes/entities/player/bank_owner.tscn" id="7_bgnkb"]
-[ext_resource type="PackedScene" path="res://scenes/entities/player/shop_assistant.tscn" id="8_eiv1w"]
+[ext_resource type="PackedScene" uid="uid://dec324ta3xrpg" path="res://scenes/entities/player/cafe_owner.tscn" id="5_6370d"]
+[ext_resource type="PackedScene" uid="uid://buolp4atne2l6" path="res://scenes/entities/player/casino_owner.tscn" id="6_fojqs"]
+[ext_resource type="PackedScene" uid="uid://ckd3i55c3lrfg" path="res://scenes/entities/player/bank_owner.tscn" id="7_bgnkb"]
+[ext_resource type="PackedScene" uid="uid://gg434rm366rw" path="res://scenes/entities/player/shop_assistant.tscn" id="8_eiv1w"]
+[ext_resource type="PackedScene" uid="uid://b2squb42v7eom" path="res://scenes/countdown.tscn" id="9_cx7qy"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lnu2h"]
 texture = ExtResource("1_cx7qy")
@@ -4294,3 +4295,13 @@ shape = SubResource("RectangleShape2D_uk881")
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D" unique_id=2116781450]
 position = Vector2(44.5, 376)
 shape = SubResource("RectangleShape2D_r0gsk")
+
+[node name="countdown" parent="." unique_id=1117512382 instance=ExtResource("9_cx7qy")]
+
+[node name="Label" parent="countdown" index="0" unique_id=784458225]
+offset_left = -535.0
+offset_top = -276.0
+offset_right = -394.0
+offset_bottom = -171.0
+
+[editable path="countdown"]

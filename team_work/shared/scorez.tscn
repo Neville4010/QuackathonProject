@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://dy1feqw1n5xdn"]
+
+[ext_resource type="FontFile" uid="uid://d11x7flnuqb5o" path="res://scenes/ari-w9500-bold.ttf" id="1_4s35u"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1p1vx"]
+bg_color = Color(0.32208005, 0.53138924, 0.42666906, 1)
+
+[node name="scorez" type="CanvasLayer" unique_id=847414954]
+
+[node name="scorePanel" type="Panel" parent="." unique_id=1357875447]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 50.0
+grow_horizontal = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1p1vx")
+
+[node name="scoreLabel" type="Label" parent="." unique_id=427935499]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -101.5
+offset_top = 2.0
+offset_right = 101.5
+offset_bottom = 60.0
+grow_horizontal = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85882354)
+theme_override_fonts/font = ExtResource("1_4s35u")
+theme_override_font_sizes/font_size = 40
+text = "SCORE : 0"
+horizontal_alignment = 1
+vertical_alignment = 1

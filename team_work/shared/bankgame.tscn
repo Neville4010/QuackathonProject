@@ -1,3 +1,11 @@
 [gd_scene format=3 uid="uid://qhpdxjyqnv0u"]
 
-[node name="bankgame" type="Node2D" unique_id=345129438]
+[ext_resource type="Script" uid="uid://cxo3hea4eictw" path="res://bankGame.gd" id="1_0ce6r"]
+[ext_resource type="Texture2D" uid="uid://c4gwwmo2wuh13" path="res://assets/backgrounds/bg.png" id="2_qxl7d"]
+
+[node name="bankGame" type="Node" unique_id=1239402845]
+script = ExtResource("1_0ce6r")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1378124241]
+position = Vector2(500, 550)
+texture = ExtResource("2_qxl7d")
