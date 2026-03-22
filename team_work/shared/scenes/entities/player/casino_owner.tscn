@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://buolp4atne2l6"]
+
+[ext_resource type="Script" uid="uid://xp0m7l3awpmw" path="res://scenes/entities/player/casino_owner.gd" id="1_gmyy4"]
+[ext_resource type="Texture2D" uid="uid://c080obgf77w7b" path="res://assets/players/casino_owner/standard/idle.png" id="1_wikhe"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gmyy4"]
+radius = 13.5
+
+[sub_resource type="Animation" id="Animation_2vgp2"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [26]
+}
+
+[sub_resource type="Animation" id="Animation_bm74n"]
+resource_name = "idle"
+length = 0.6
+loop_mode = 1
+step = 0.0001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [26, 27, 26, 27, 26, 27]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_2er3y"]
+_data = {
+&"RESET": SubResource("Animation_2vgp2"),
+&"idle": SubResource("Animation_bm74n")
+}
+
+[node name="casino_owner" type="CharacterBody2D" unique_id=2021554353]
+script = ExtResource("1_gmyy4")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1013230032]
+position = Vector2(0, -30.2)
+texture = ExtResource("1_wikhe")
+hframes = 13
+vframes = 4
+frame = 26
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1993263594]
+shape = SubResource("CircleShape2D_gmyy4")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1644984938]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1285286847]
+libraries/ = SubResource("AnimationLibrary_2er3y")

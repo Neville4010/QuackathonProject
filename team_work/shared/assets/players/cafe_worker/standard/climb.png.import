@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0cntc4o05jrt"
-path="res://.godot/imported/skyblue girl player.png-599713c37a9bf7883c07629b1a0ee7e2.ctex"
+uid="uid://cekdpf38lakfn"
+path="res://.godot/imported/climb.png-a476d16a198d8f3bcc209f8a93c1b9a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/players/skyblue girl player.png"
-dest_files=["res://.godot/imported/skyblue girl player.png-599713c37a9bf7883c07629b1a0ee7e2.ctex"]
+source_file="res://assets/players/cafe_worker/standard/climb.png"
+dest_files=["res://.godot/imported/climb.png-a476d16a198d8f3bcc209f8a93c1b9a5.ctex"]
 
 [params]
 

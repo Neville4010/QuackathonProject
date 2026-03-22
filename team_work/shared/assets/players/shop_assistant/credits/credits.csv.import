@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://sdiswogpqkkx"
+
+[deps]
+
+files=["res://assets/players/shop_assistant/credits/credits.notes.translation", "res://assets/players/shop_assistant/credits/credits.authors.translation", "res://assets/players/shop_assistant/credits/credits.licenses.translation", "res://assets/players/shop_assistant/credits/credits.urls.translation"]
+
+source_file="res://assets/players/shop_assistant/credits/credits.csv"
+dest_files=["res://assets/players/shop_assistant/credits/credits.notes.translation", "res://assets/players/shop_assistant/credits/credits.authors.translation", "res://assets/players/shop_assistant/credits/credits.licenses.translation", "res://assets/players/shop_assistant/credits/credits.urls.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true
