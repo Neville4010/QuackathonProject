@@ -23,4 +23,10 @@ wait_time = 0.1
 texture = ExtResource("5_r06iw")
 offset = Vector2(25, 25)
 
+[node name="exitBank" type="Button" parent="." unique_id=1950916700]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "leaveee"
+
 [connection signal="timeout" from="moveTimer" to="." method="_on_move_timer_timeout"]
+[connection signal="pressed" from="exitBank" to="." method="_on_exit_bank_pressed"]

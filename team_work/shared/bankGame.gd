@@ -119,3 +119,8 @@ func move_food():
 
 func end_game():
 	pass
+
+
+func _on_exit_bank_pressed() -> void:
+	get_tree().change_scene_to_file("res://scenes/levels/game.tscn")
+	pass # Replace with function body.
